@@ -10,20 +10,20 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Light WMS",
-  tagline: "Web tool over beas",
+  title: "APDC",
+  // tagline: "Web tool over beas",
   favicon: "img/lwms_icon.ico",
 
   // Set the production url of your site here
   url: "https://github.com",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/lwms-docs/",
+  baseUrl: "/apdc-docs/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "theonewhowritesthedocs", // Usually your GitHub org/user name.
-  projectName: "lwms-docs", // Usually your repo name.
+  projectName: "apdc-docs", // Usually your repo name.
   deploymentBranch: "gh-pages",
 
   onBrokenLinks: "throw",
@@ -81,9 +81,9 @@ const config = {
       image: "img/docusaurus-social-card.jpg",
       navbar: {
         hideOnScroll: false,
-        title: "Light WMS",
+        title: "APDC",
         logo: {
-          alt: "Light WMS Logo",
+          alt: "APDC Logo",
           src: "img/light_wms_icon.svg",
         },
         items: [
@@ -93,9 +93,9 @@ const config = {
           //   position: "left",
           //   label: "Documentation",
           // },
-          {to: '/docs/category/introduction', label: 'Introduction', position: 'right'},
-          {to: '/docs/category/definitions', label: 'Definitions', position: 'right'},
-          {to: '/docs/category/master-data', label: 'Master Data', position: 'right'},
+          // {to: '/docs/category/introduction', label: 'Introduction', position: 'right'},
+          // {to: '/docs/category/definitions', label: 'Definitions', position: 'right'},
+          // {to: '/docs/category/master-data', label: 'Master Data', position: 'right'},
           {to: '/docs/category/web-apps', label: 'Web Apps', position: 'right'},
           // {
           //   href: 'https://github.com/facebook/docusaurus',

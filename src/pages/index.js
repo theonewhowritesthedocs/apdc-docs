@@ -18,7 +18,7 @@ function HomepageHeader() {
         <Heading as="h1" className="hero__title">
           Documentation
         </Heading>
-        <p className="hero__subtitle">This is the documentation for the <strong>Light WMS</strong> ecosystem.</p>
+        <p className="hero__subtitle">This is the documentation for the <strong>APDC</strong> ecosystem.</p>
         <div className={styles.buttons}>
           {/* <input type="text" className={styles.searchbox}/> */}
           {/* <Link
