@@ -10,7 +10,7 @@ const FeatureList = [
     Svg: require('@site/static/img/designation.svg').default,
     description: (
       <>
-        Change the state of the operations.
+        Update the status of operations.
       </>
     ),
   },
