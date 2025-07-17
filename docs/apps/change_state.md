@@ -8,7 +8,7 @@ import TabItem from '@theme/TabItem';
 
 # Change Operation State
 
-Update the state/status of operations (completed, on hold, etc...)
+Update the state/status of operations (completed, on hold, etc...).
 
 ## Flow Diagram
 
@@ -137,11 +137,11 @@ You will see up to 5 sections:
 :::
 
 :::note[INFO]
-The **Remarks** field will be affected by the **If true, a comment in the 'Remarks' field is mandatory** setting in the [Configuration](./change_state.md#configuration).
+The **Remarks** field is affected by the **If true, a comment in the 'Remarks' field is mandatory** setting in the [Configuration](./change_state.md#configuration).
 :::
 
 :::note[INFO]
-The **Good Quantity** and **Scrap Quantity** fields will be affected by the **If true, the field for quantity entry will be enabled** setting in the [Configuration](./change_state.md#configuration).
+The **Good Quantity** and **Scrap Quantity** fields is affected by the **If true, the field for quantity entry will be enabled** setting in the [Configuration](./change_state.md#configuration).
 :::
 
 4. The fourth section gives you two options:

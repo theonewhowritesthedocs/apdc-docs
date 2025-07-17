@@ -7,10 +7,20 @@ const FeatureList = [
   {
     title: 'Change Operation State',
     url: '/docs/apps/change_state',
-    Svg: require('@site/static/img/designation.svg').default,
+    Svg: require('@site/static/img/change-state.svg').default,
     description: (
       <>
         Update the status of operations.
+      </>
+    ),
+  },
+  {
+    title: 'Reservations',
+    url: '/docs/apps/reservations',
+    Svg: require('@site/static/img/reservations.svg').default,
+    description: (
+      <>
+        Make reservations of the materials you need for your work orders.
       </>
     ),
   },
