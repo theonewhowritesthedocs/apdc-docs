@@ -16,7 +16,22 @@ Make reservations of the materials you need for your work orders.
 
     stateDiagram-v2
 
-    hehexd
+    state "Select Work Order" as wo
+    state "Reservations Summary" as reservations
+    state "Make Reservation" as reserve
+    state "Allocate/Transfer Reservations" as allocate
+
+    state reservations_choices <<choice>>
+
+    [*] --> wo
+    wo --> reservations
+    reservations --> reserve
+    reserve --> reservations
+    reservations --> reservations_choices: allowed for transfers in config?
+    reservations_choices --> allocate: yes
+    reservations_choices --> [*]: no
+    allocate --> [*]
+
 ```
 
 ## Screens
