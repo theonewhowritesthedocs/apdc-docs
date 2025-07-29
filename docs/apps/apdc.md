@@ -6,7 +6,7 @@ import CustomDetails from "@site/src/components/CustomDetails";
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Change Operation State
+# APDC
 
 Update the state/status of operations (completed, on hold, etc...).
 
@@ -36,7 +36,7 @@ Update the state/status of operations (completed, on hold, etc...).
 
 On this screen you can select the type of filter you want to use to find the operation you need to update.
 
-![Filter Selection screen](./img-change-state/filter_selection_screen.png)
+![Filter Selection screen](./img-apdc/filter_selection_screen.png)
 
 Use the **Filter Type** field to select they way you want to search for operations. 
 
@@ -57,7 +57,7 @@ You can search by:
    - Low.
 6. Operation description.
 
-Once you select one, you will be taken to the [List of Operations](./change_state.md#list-of-operations) screen.
+Once you select one, you will be taken to the [List of Operations](./apdc.md#list-of-operations) screen.
 
 ### List of Operations
 
@@ -65,22 +65,22 @@ On this screen you can see the list of operations that match the filter and the 
 
 <Tabs>
   <TabItem value="barcode" label="Barcode" default>
-    ![Operations Listing: Barcode screen](./img-change-state/operations_listing_barcode_screen.png)
+    ![Operations Listing: Barcode screen](./img-apdc/operations_listing_barcode_screen.png)
   </TabItem>
   <TabItem value="wo" label="WO">
-    ![Operations Listing: Work Order screen](./img-change-state/operations_listing_wo_screen.png)
+    ![Operations Listing: Work Order screen](./img-apdc/operations_listing_wo_screen.png)
   </TabItem>
   <TabItem value="resource" label="Resource">
-    ![Operations Listing: Resource screen](./img-change-state/operations_listing_resource_screen.png)
+    ![Operations Listing: Resource screen](./img-apdc/operations_listing_resource_screen.png)
   </TabItem>
   <TabItem value="state" label="State">
-    ![Operations Listing: State screen](./img-change-state/operations_listing_state_screen.png)
+    ![Operations Listing: State screen](./img-apdc/operations_listing_state_screen.png)
   </TabItem>
   <TabItem value="priority" label="Priority">
-    ![Operations Listing: Priority screen](./img-change-state/operations_listing_priority_screen.png)
+    ![Operations Listing: Priority screen](./img-apdc/operations_listing_priority_screen.png)
   </TabItem>
   <TabItem value="instruction" label="Instruction">
-    ![Operations Listing: Instruction screen](./img-change-state/operations_listing_description_screen.png)
+    ![Operations Listing: Instruction screen](./img-apdc/operations_listing_description_screen.png)
   </TabItem>
 </Tabs>
 
@@ -103,7 +103,7 @@ You can increase/decrease the number of operations shown on screen at a time usi
 
 You can reorder the table by column as you prefer by clicking on any of its headers (When not in mobile).
 
-Click on the operation you want to udpate to go to the [Update Operation](./change_state.md#update-operation) screen.
+Click on the operation you want to udpate to go to the [Update Operation](./apdc.md#update-operation) screen.
 
 ### Update Operation
 
@@ -111,7 +111,7 @@ On this screen you can update the state of the operation you selected, among oth
 
 This process will create a **time receipt**.
 
-![Update Operation screen](./img-change-state/update_operation_screen.png)
+![Update Operation screen](./img-apdc/update_operation_screen.png)
 
 You will see up to 5 sections:
 
@@ -137,11 +137,11 @@ You will see up to 5 sections:
 :::
 
 :::note[INFO]
-The **Remarks** field is affected by the **If true, a comment in the 'Remarks' field is mandatory** setting in the [Configuration](./change_state.md#configuration).
+The **Remarks** field is affected by the **If true, a comment in the 'Remarks' field is mandatory** setting in the [Configuration](./apdc.md#configuration).
 :::
 
 :::note[INFO]
-The **Good Quantity** and **Scrap Quantity** fields is affected by the **If true, the field for quantity entry will be enabled** setting in the [Configuration](./change_state.md#configuration).
+The **Good Quantity** and **Scrap Quantity** fields is affected by the **If true, the field for quantity entry will be enabled** setting in the [Configuration](./apdc.md#configuration).
 :::
 
 4. The fourth section gives you two options:
@@ -169,11 +169,11 @@ The **Partial Complete** and **Complete** options in this section do have an eff
 If the operation and resource do not have any attachments, the **attachments** section will not be shown.
 :::
 
-Once you are done, click **Save** at the bottom **to create the time receipt** and to go to the [Home](./change_state.md#filter-selection) screen.
+Once you are done, click **Save** at the bottom **to create the time receipt** and to go to the [Home](./apdc.md#filter-selection) screen.
 
 Other buttons in the footer:
 
-   - **Service:** Click it to go to the [Create Activity](./change_state.md#create-activity) screen, if you want to **create an activity** for the operation.
+   - **Service:** Click it to go to the [Create Activity](./apdc.md#create-activity) screen, if you want to **create an activity** for the operation.
    - **Issue Material:** IN DEVELOPMENT.
    - **Reservations:** TO BE DOCUMENTED.
    - **Cancellations:** IN DEVELOPMENT.
@@ -183,7 +183,7 @@ Other buttons in the footer:
 
 On this screen you can create an activity for the operation.
 
-![Create Activity screen](./img-change-state/create_activity_screen_disabled_buttons.png)
+![Create Activity screen](./img-apdc/create_activity_screen_disabled_buttons.png)
 
 You first need to set the **Business Partner**. Click the <IIcon icon="iconamoon:search-bold" width="17" height="17" /> button on it to open the **Business Partner Search** modal.
 
@@ -191,7 +191,7 @@ You first need to set the **Business Partner**. Click the <IIcon icon="iconamoon
 
 On this screen you need to select one of the **business partners** listed.
 
-![Business Partner search modal](./img-change-state/bp-search-modal.png)
+![Business Partner search modal](./img-apdc/bp-search-modal.png)
 
 You can select any item by clicking on it, which will close the modal and take you back with that **business partner** already set.
 
@@ -207,7 +207,7 @@ Next up is the **User**. Click the <IIcon icon="iconamoon:search-bold" width="17
 
 On this screen you need to select one of the **users** listed.
 
-![User search modal](./img-change-state/user-search-modal.png)
+![User search modal](./img-apdc/user-search-modal.png)
 
 You can select any item by clicking on it, which will close the modal and take you back with that **user** already set.
 
@@ -225,7 +225,7 @@ Continuing, you have the **Subject**. Click the <IIcon icon="iconamoon:search-bo
 
 On this screen you need to select one of the **subjects** listed.
 
-![Subject search modal](./img-change-state/subject-search-modal.png)
+![Subject search modal](./img-apdc/subject-search-modal.png)
 
 You can select any item by clicking on it, which will close the modal and take you back with that **subject** already set.
 
@@ -237,7 +237,7 @@ If you want to close the modal without making any changes, click the <IIcon icon
 
 And  last but not least, you can use the **Comment** field to add extra information on the process.
 
-Once you are done, click **Save** to create the corresponding **activity** and to go back to the [Update Operation](./change_state.md#update-operation) screen for you to continue with the.
+Once you are done, click **Save** to create the corresponding **activity** and to go back to the [Update Operation](./apdc.md#update-operation) screen for you to continue with the.
 
 ## Configuration
 
@@ -247,7 +247,7 @@ Only administrators can access the configuration for a web app.
 
 On this screen you can set the settings that will apply to this web app.
 
-![Configuration screen](./img-change-state/configuration_screen.png)
+![Configuration screen](./img-apdc/configuration_screen.png)
 
 
 | Name | Description |

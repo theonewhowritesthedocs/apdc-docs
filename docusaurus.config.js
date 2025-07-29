@@ -81,7 +81,7 @@ const config = {
       image: "img/docusaurus-social-card.jpg",
       navbar: {
         hideOnScroll: false,
-        title: "APDC",
+        title: "APDC (Advanced Production Data Capture)",
         logo: {
           alt: "APDC Logo",
           src: "img/light_wms_icon.svg",
